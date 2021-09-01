@@ -5,7 +5,7 @@
   }
 
 body{
-    background-color: rgb(154, 161, 168);
+    background-color: rgb(196, 200, 204);
 }
 /* Realizzata una sezione brand in cui
 centro sia il logo che il titolo
@@ -31,6 +31,7 @@ centro sia il logo che il titolo
     width: 1000px;
     margin: auto;
     margin-top: 50px;
+    
 
   }
 /* Sezione dedicata ai due tasti realizzati da due spam
@@ -40,7 +41,7 @@ centro sia il logo che il titolo
   .add{
     display: inline-block;
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     border-radius: 8%;
     padding: 5px;
     margin: 10px;
@@ -70,23 +71,38 @@ le caratteristiche in comune sono raggruppate */
        font-size: 25px;
       }
 
-.elemento{margin-left:20px;
+.elemento{margin-left:10px;
          font-family: Arial, Helvetica, sans-serif;
          font-size: 18px;}
 
+/* Gli elementi sono allineati dall'inline block */
 .addElemento {display: inline-block;
              text-align: center;
-             line-height: 10px;
-             border-radius: 25%;
+             line-height: 5px;
+             border-radius: 40%;
              padding: 10px;
              margin: 10px;
-             font-size: smaller;}
+             font-size: 11px;
+             color: white;}
 
              
-.checkok{       color:rgb(37, 240, 37);
+.checkok   {    color:rgb(37, 240, 37);
+                font-size: 25px;
+                }
+
+.kocheck   {    color:red;
                 font-size: 20px;}
  
 /* da qui inizia le proprietà specifiche dei tasti laterali */
 
-.blu {      background-color: dodgerblue;
-            color:white;}
+.blu {  background-color: dodgerblue;}
+
+.turchese{ background-color: rgb(170, 94, 170);}
+
+.verde{ background-color: rgb(58, 138, 48);}
+
+.arancione{ background-color:orange;}
+
+.viola{background-color: orchid;}
+
+.verdeChiaro{ background-color: rgb(104, 202, 91);}
