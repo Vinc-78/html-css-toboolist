@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: rgb(154, 161, 168);
+}
+/* Realizzata una sezione brand in cui
+centro sia il logo che il titolo
+ */
+.contenitore_brand{background-color: white;}
+
+#main_logo {
+    width: 80px;
+    vertical-align: bottom;
+  }
+  /* Utilizzo sia inline block per affiancarli 
+  e uso una proporzione rispetto all'elemento
+  padre con 4 em per all'inearla al logo */
+
+  #main_brand {
+    display: inline-block;
+    margin-left: 14px;
+    font-size: 4em;
+  }
+
