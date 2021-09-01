@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <title>Toboolist</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- Inizio Header con logo Realizzato un contenitore per il brand in 
+         è presente sia il logo che il brand centrati poi in altezza con css-->
+
+        <header>
+            <div class="contenitore_brand">
+                <img id="main_logo" src="img/Logo.png" alt="logo">
+                <h1 id="main_brand">Toboolist</h1>
+            </div>
+            
+        </header>
+        <!-- Fine della parte header -->
+
+        <main>
+            <div class="contenitore_main">
+                <!-- Inseriti i due tasti per aggiungere -->
+                <div class="inserimento">
+
+                    <span class="add task">Add Task</span>
+                    <span class="add sezioni">Add Section</span>
+                    
+                </div>
+
+            <!-- Inizio seconda parte struttura in una lista -->
+                <ul class="contenitoreLista">
+                    <!-- Primo gruppo New Task -->
+                    <li class="title">
+                        <span style="font-size: 15px;">&#9660;</span>New Task
+                        <ul>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Quarterly Newsletter</span>
+                                <span class="button blu">Editorial</span>
+                            </li>
+                        </ul>
+                    </li> <!-- Fine gruppo New Task -->
+                       
+                    <!-- Secondo gruppo Today -->
+                    <li class="title">
+                        <span style="font-size: 15px;">&#9660;</span>Today
+                        <ul>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Recruiting blog post</span>
+                                <span class="button blu">Editorial</span>
+                            </li>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Mobile app launch</span>
+                                <span class="button turchese">Q1 Goals</span>
+                            </li>
+                            <li class="element">
+                                <span class="koCheck">&#9747;</span>
+                                <span>Interview John H</span>
+                                <span class="button verde">Recruiting</span>
+                            </li>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Summit update to mobile storefronts</span>
+                                <span class="button arancione">Mobile</span>
+                            </li>
+                        </ul>
+                    </li> <!-- Fine secondo gruppo Today -->
+                    
+                    <!-- Terzo gruppo Upcoming -->
+                    <li class="title"><span style="font-size: 15px;">&#9660;</span>Upcoming
+                        <ul>
+                            <li class="element">
+                                <span class="koCheck">&#9747;</span>
+                                <span>Schedule meeting with Alex</span>
+                            </li>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Homepage refresh</span>
+                                <span class="button viola">Website</span>
+                            </li>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Onboard new Sales team members</span>
+                                <span class="button verdeChiaro">Sales</span>
+                            </li>
+                            <li class="element">
+                                <span class="checkok">&#10003;</span>
+                                <span>Review editorial calenda</span>
+                                <span class="button blu">Editorial</span>
+                            </li>
+
+
+                        </ul>
+
+                    </li>
+                    <!-- Fine terzo gruppo Upcoming -->
+
+                </ul>
+                <!-- Fine lista e parte centrale -->
+
+                
+        </main>
+
+    </body>
+
+</html>
