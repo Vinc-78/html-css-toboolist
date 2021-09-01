@@ -7,8 +7,7 @@
 body{
     background-color: rgb(196, 200, 204);
 }
-/* Realizzata una sezione brand in cui
-centro sia il logo che il titolo
+/* Realizzata una sezione brand in cui centro sia il logo che il titolo
  */
 .contenitore_brand{background-color: white;}
 
@@ -16,8 +15,7 @@ centro sia il logo che il titolo
     width: 80px;
     vertical-align: bottom;
   }
-  /* Utilizzo sia inline block per affiancarli 
-  e uso una proporzione rispetto all'elemento
+  /* Utilizzo sia inline block per affiancarli e uso una proporzione rispetto all'elemento
   padre con 4 em per all'inearla al logo */
 
   #main_brand {
@@ -25,7 +23,8 @@ centro sia il logo che il titolo
     margin-left: 14px;
     font-size: 4em;
   }
-/* Creato il contenitore per la parte centrale */
+
+/* Creato il contenitore per la parte centrale con i due Add tasti */
   .contenitore_main{
     background-color: white;
     width: 1000px;
@@ -34,10 +33,8 @@ centro sia il logo che il titolo
     
 
   }
-/* Sezione dedicata ai due tasti realizzati da due spam
- e data la forma dei tasti gli elementi comuni
- inseriti nella classe add e quelli specifici
- in due classi dedicate task e sezioni */
+/* Sezione dedicata ai due tasti realizzati con due spam agli elementi comuni
+ inseriti nella classe add e quelli specifici in due classi dedicate task e sezioni */
   .add{
     display: inline-block;
     text-align: center;
@@ -54,13 +51,14 @@ centro sia il logo che il titolo
         background-color: white;
         color: grey;
         border: 1px solid grey;}
-/* Aggiunto un elemento di bordo inferiore per dividere le due parti */
+
+/* Aggiunto un elemento di bordo inferiore per dividere questa parte da quella sottostante */
 .inserimento {
             border-bottom: 1px solid lightgrey;
           }
-/* Realizzata una parte menu divisa in html da spam
-in css ogni elemento è caratterizzato da una classe
-le caratteristiche in comune sono raggruppate */
+
+/* Realizzata una parte menu ogni elemento è caratterizzato da una classe
+le caratteristiche in comune sono raggruppate  nelle prossime 6 classi*/
 
 .menu{margin-left: 50px;
       margin-top: 25px;
